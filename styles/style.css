@@ -1,0 +1,39 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.underline{
+    width: 130px;
+    height: 5px;
+    background-color: chocolate;
+    margin: auto;
+}
+
+.card{
+    overflow: hidden;
+    border-radius: 5px;
+    margin-bottom: 15px;
+
+}
+.img1 img{
+    height: 200px;
+    width: 100%;
+}
+.img2 img{
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: 5px solid;
+    margin-top: -80px;
+}
